@@ -45,10 +45,14 @@ var queueOfNames = Queue(array: [1,2,3,4,5,6,7])
 
 //Queue 추가
 queueOfNames.enqueue(8)
+
+//print : [1, 2, 3, 4, 5, 6, 7, 8]
 print(queueOfNames.array)
 
 //Queue dequeue
 queueOfNames.dequeue() //첫번쨰 요소 return
+
+//print : [2, 3, 4, 5, 6, 7, 8]
 print(queueOfNames.array)
 
 queueOfNames.enqueue(9)
@@ -58,6 +62,7 @@ queueOfNames.enqueue(12)
 queueOfNames.enqueue(13)
 queueOfNames.enqueue(14)
 
+//print : [5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
 print(queueOfNames.array)
 
 
